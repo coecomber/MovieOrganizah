@@ -46,5 +46,28 @@ namespace MovieOrganizer_2Leggo.Properties {
                 this["BaseFolder"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Backgroundpic {
+            get {
+                return ((string)(this["Backgroundpic"]));
+            }
+            set {
+                this["Backgroundpic"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public int[] Argbs {
+            get {
+                return ((int[])(this["Argbs"]));
+            }
+            set {
+                this["Argbs"] = value;
+            }
+        }
     }
 }
